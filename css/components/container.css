@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  background: #F5F5F5;
+  max-width: 100vw;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.jogo-conteudo {
+  max-width: 1200px;
+  width: 20%;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 600px) {
+  .jogo-conteudo {
+    width: 70%;
+  }
+}
+.jogo {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+input {
+  text-align: center;
+  max-width: 500px;
+  width: 45%;
+  text-align: center;
+}
+
+img {
+  width: 20px;
+  margin-left: 1rem;
+}
+span {
+  color: #43a047;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.toast {
+  background: #bdbdbd;
+}
+.rede {
+  color: #d32f2f;
+}
+.button-content {
+  display: flex;
+  justify-content: space-between;
+  
+}

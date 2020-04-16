@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo Advinha</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="./js/jogo.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <h5>ADIVINHE UM NÚMERO</h5>
+    <h6>Entre 0/100</h6>
+    <div class="jogo-conteudo">
+      <div class="jogo">
+        <input id="numero" type="text" placeholder="ADVINHE O NUMERO">
+        <div class="button-content">
+        <input onclick="verificarNumero()" type="button" value="Adivinhar" class="btn">
+        <input onclick="reiniciarChance()" type="button" value="Reiniciar" class="btn">
+      </div>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
